@@ -13,5 +13,5 @@ spec:
       - name: k8s-demo
         image: amitvashist7/k8s-tiny-web
         ports:
-        - name: node-port
+        - name: nodejs-port
           containerPort: 80

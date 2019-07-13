@@ -1,0 +1,334 @@
+    1  az 
+    2  az account 
+    3  az account list 
+    4  az account show 
+    5  history 
+    6  az 
+    7  az location list 
+    8  az group create myRG --help
+    9  az group create myRG -l
+   10  az group create myRG 
+   11  az account list-locations
+   12  az account list-locations | grep -i us 
+   13  az group create myRG eastus
+   14  az group create --name myRG --localtion eastus
+   15  az group create -n myRG -l eastus
+   16  az vm 
+   17  az vm list 
+   18  az images list 
+   19  az image list 
+   20  az vm create   --resource-group myResourceGroup   --name myVM   --image UbuntuLTS   --admin-username azureuser \
+   21  az vm create -r myRG -n myVM --help
+   22  az vm create -r myRG -n myVM --image UbuntuLTS --admin-username azureuser --generate-ssh-keys
+   23  az vm create -g myRG -n myVM --image UbuntuLTS --admin-username azureuser --generate-ssh-keys
+   24  az vm list 
+   25  az vm myVM 
+   26  az vm --help
+   27  az vm show myVM
+   28  az vm show 
+   29  az vm show -r myRG -n myVM
+   30  az vm show -g myRG -n myVM
+   31  az vm show -g myRG -n myVM --help
+   32  az vm show -g myRG -n myVM -d 
+   33  ssh azureuser@13.92.237.205
+   34  az vm open-port --port 80 --resource-group myRG --name myVM
+   35  az vm delete -g myRG -n myVM 
+   36  az vm create -g myRG -n myVM1 --image UbuntuLTS --admin-username azureuser --admin-password 
+   37  az vm create -g myRG -n myVM1 --image UbuntuLTS --admin-username azureuser --admin-password redhat@123
+   38  az vm create -g myRG -n myVM1 --image UbuntuLTS --admin-username azureuser --admin-password Welcome@98765432!
+   39  ssh azureuser@137.135.79.39
+   40  az group delete --name myRG
+   41  git clone https://github.com/amitvashist7/jenkins2-course-spring-petclinic.git
+   42  git clone https://amitvashist7@dev.azure.com/amitvashist7/MyDemoProject/_git/MyDemoProject
+   43  git clone https://amitvashist7@dev.azure.com/amitvashist7/MyDemoProject/_git/MyDemoProject --help
+   44  git clone https://amitvashist7@dev.azure.com/amitvashist7/MyDemoProject/_git/MyDemoProject 
+   45  ls
+   46  cd jenkins2-course-spring-petclinic/
+   47  ls
+   48  mkdir ../MyDemoProject/petclinic
+   49  cp -rf * ../MyDemoProject/petclinic/
+   50  ls
+   51  cd ../../
+   52  ls
+   53  cd - 
+   54  ls
+   55  cd ..
+   56  ls
+   57  cd MyDemoProject/
+   58  ls
+   59  git add . 
+   60  git commit -m "Petclinic"
+   61  git push origin master 
+   62  git push 
+   63  git config -l
+   64  git push origin 
+   65  git push origin master 
+   66  git pull 
+   67  ls
+   68  git add . 
+   69  git commit -m "Petclinic"
+   70  git config --global user.email amitvashist7@outlook.com
+   71  git commit -m "Petclinic"
+   72  git push origin master 
+   73  git push origin master --help
+   74  git push origin master 
+   75  pwd
+   76  ls
+   77  cd petclinic/
+   78  ls
+   79  cd MyDemoProject/
+   80  ls
+   81  git pull 
+   82  ls
+   83  cp -rf petclinic/* .
+   84  ls
+   85  git rm petclinic
+   86  git rm petclinic -r 
+   87  ls
+   88  git add . 
+   89  git commit -m "Petclinic Dir Gone"
+   90  ls
+   91  git push origin master 
+   92  ls
+   93  ssh amitvashist7@23.101.189.146
+   94  ls
+   95  ssh amitvashist7@104.215.88.17
+   96  ssh vashist7@104.215.88.17
+   97  ssh amitvashist7@104.215.88.17
+   98  ssh amitvashist7@23.101.189.146
+   99  ls
+  100  az
+  101  az account list 
+  102  az account show
+  103  ls
+  104  az account list-locations
+  105  az --help
+  106  az group --help
+  107  az group list 
+  108  az group craete --help
+  109  az group create -h 
+  110  az group create -n mydemocliRG -l eastus
+  111  az vm 
+  112  az vm create -h 
+  113  az vm create -n myubuntucliVM -g mydemocliRG --image UbuntuLTS --admin-user amitvashist7 --genrate-ssh-keys
+  114  az vm create -n myubuntucliVM -g mydemocliRG --image UbuntuLTS --admin-user amitvashist7 --generate-ssh-keys
+  115  ssh amitvashist7@40.117.121.47
+  116  az vm create -n myubuntucliVM -g mydemocliRG --image UbuntuLTS --admin-user amitvashist7 --admin-password
+  117  az vm create -n myubuntucliVM -g mydemocliRG --image UbuntuLTS --admin-user amitvashist7 --admin-password Welcome@98765432!
+  118  az vm create -n myubuntucliVM --02 -g mydemocliRG --image UbuntuLTS --admin-user amitvashist7 --admin-password Welcome@98765432!
+  119  az vm create -n myubuntucliVM-02 -g mydemocliRG --image UbuntuLTS --admin-user amitvashist7 --admin-password Welcome@98765432!
+  120  ssh amitvashist7@13.90.61.194
+  121  ls
+  122  az vm show -g mydemocliRG 
+  123  az vm show -g mydemocliRG -l eastus
+  124  az vm show 
+  125  az vm show -n mydemocliRG
+  126  az vm show -g mydemocliRG 
+  127  az vm list  -n mydemocliRG
+  128  az vm list
+  129  az vm open-port list 
+  130  ls
+  131  az vm list  -n mydemocliRG
+  132  az vm list
+  133  az vm open-port --port 80 -n mydemocliRG --name myubuntucliVM
+  134  az vm open-port --port 80 --resouce-group mydemocliRG --name myubuntucliVM
+  135  az vm open-port --port 80 --resource-group mydemocliRG --name myubuntucliVM
+  136  history 
+  137  az network nsg rule list 
+  138  az network nsg list 
+  139  history 
+  140  az vm list
+  141  az vm show myubuntucliVM
+  142  az vm list myubuntucliVM
+  143  az vm show 
+  144  az vm show  --name myubuntucliVM
+  145  az vm show --resource-group mydemocliRG
+  146  az vm show --resource-group mydemocliRG --name myubuntucliVM
+  147  az network public-ip list 
+  148  ssh amitvashist7@myubuntucliVM
+  149  az network public-ip list 
+  150  ssh amitvashist7@13.90.61.194
+  151  az vm open-port --port 80 --resource-group mydemocliRG --name myubuntucliVM-02
+  152  ssh amitvashist7@13.90.61.194
+  153  history 
+  154  ssh amitvashist7@13.90.61.194
+  155  az vm list-vm-resize-options --resource-group mydemocliRG 
+  156  az vm list-vm-resize-options --resource-group mydemocliRG --name myubuntucliVM-02 
+  157  az vm list-vm-resize-options --resource-group mydemocliRG --name myubuntucliVM-02 --output table
+  158  az vm list-vm-resize-options --resource-group mydemocliRG --name myubuntucliVM-02 --size Standard_B1ms
+  159  az vm resize --resource-group mydemocliRG --name myubuntucliVM-02 --size Standard_B1ms
+  160  ssh amitvashist7@13.90.61.194
+  161  az group delete --name mydemocliRG
+  162  az group list 
+  163  ssh amitvashist7@10.0.5.4
+  164  ssh amitvashist7@40.122.49.84
+  165  az network list 
+  166  az network show 
+  167  az network --help
+  168  az network vnet --help
+  169  az network vnet list 
+  170  az network vnet create --help
+  171  az group create -n MyResourceGroup -l eastus
+  172  az network vnet create -g MyResourceGroup -n MyVnet --address-prefix 192.168.0.0/16 --subnet-name MySubnet --subnet-prefix 192.168.1.0/24
+  173  az network vnet list 
+  174  history 
+  175  az vm create --help
+  176  az vm create -n Vm01 -g MyResourceGroup --image UbuntuLTS --admin-user amitvashist7 --generate-ssh-keys --vnet-name MyVnet --subnet MySubnet
+  177  az vm open-port --port 80 --resource-group MyResourceGroup --name Vm01
+  178  az group create list 
+  179  az group list 
+  180  az group create -n MyResourceGroup -l eastus
+  181  az network vnet create -g MyResourceGroup -n MyVnet --address-prefix 192.168.0.0/16 --subnet-name MySubnet --subnet-prefix 192.168.1.0/24
+  182  az vm create -n Vm01 -g MyResourceGroup --image UbuntuLTS --admin-user amitvashist7 --generate-ssh-keys --vnet-name MyVnet --subnet MySubnet
+  183  ssh amitvashist@13.68.142.72
+  184  ls
+  185  cat .ssh/id_rsa
+  186  az vm open-port --port 8080 --resource-group MyResourceGroup --name Vm01
+  187  az group delete -n MyResourceGroup -l eastus
+  188  az group delete -n MyResourceGroup 
+  189  az group create -m mydemoCLIRG
+  190  az group create -n mydemoCLIRG
+  191  az group create -n mydemoCLIRG -l useast
+  192  az group create -n mydemoCLIRG -l eastus
+  193  ls
+  194  az vm create -n myubuntucliVM -g mydemoCLIRG --image UbuntuLTS --admin-user amitvashist7 --generate-ssh-keys
+  195  az vm open-port --port 8080 --resource-group mydemoCLIRG --name myubuntucliVM
+  196  az aks get-credentials -g aks-k8s-cluster -n aks-k8s-cluster-01
+  197  kubectl get nodes 
+  198  ls
+  199  cd MyDemoProject/
+  200  ls
+  201  cd ..
+  202  ls
+  203  git clone https://github.com/amitvashist7/azure-devops-k8s-20190706.git
+  204  ls
+  205  cd azure-devops-k8s-20190706/
+  206  ls
+  207  cd K8s/
+  208  ls
+  209  cd deployment/
+  210  ls
+  211  kubectl get nodes 
+  212  kubectl get pods 
+  213  cat helloworld.yml y
+  214  kubectl create -f helloworld.yml 
+  215  kubectl get deployments 
+  216  kubectl get rs 
+  217  kubectl get pods 
+  218  kubectl get pods -o wide 
+  219  kubectl get pods 
+  220  kubectl desribe pods helloworld-deployment-6664884558-2mwp5 
+  221  kubectl describe pod helloworld-deployment-6664884558-2mwp5 
+  222  kubectl  get srv 
+  223  kubectl  get services
+  224  ls
+  225  cd azure-devops-k8s-20190706/K8s/deployment/
+  226  ls
+  227  cd ..
+  228  ls
+  229  cd ..
+  230  ls
+  231  cd ..
+  232  ls
+  233  cd  azure-devops-k8s-20190706/x
+  234  cd  azure-devops-k8s-20190706/K8s/first-app/
+  235  ls
+  236  cat helloworld.yml 
+  237  kubectl get deployment
+  238  kubectl delete deployment helloworld-deployment
+  239  ls
+  240  rm -rf 03-Kubernetes\ Basics.pptx 
+  241  ls
+  242  kubectl create -f helloworld.yml 
+  243  cat helloworld-service.yml 
+  244  kubectl get service 
+  245  kubectl create -f helloworld-service.yml 
+  246  kubectl get service 
+  247  kubectl get pods 
+  248  kubectl get service 
+  249  curl 40.76.6.114
+  250  kubectl  get pods 
+  251  kubectl delete pod nodehelloworld
+  252  ls
+  253  cd azure-devops-k8s-20190706/
+  254  ls
+  255  cd K8s/deployment/
+  256  ls
+  257  cat helloworld.yml 
+  258  ls
+  259  cat ../first-app/helloworld.yml 
+  260  ls
+  261  vim helloworld.yml 
+  262  curl 40.76.6.114
+  263  kubectl get service 
+  264  kubectl create -f helloworld.yml 
+  265  kubectl get deployments 
+  266  curl 40.76.6.114
+  267  kubectl describe service helloworld-service
+  268  kubectl get deployments 
+  269  kubectl scale --replicas=1 deployments helloworld-deployment
+  270  kubectl get deployments 
+  271  kubectl describe service helloworld-service
+  272  kubectl get pods 
+  273  kubectl get pods  -o wide 
+  274  kubectl delet pod helloworld-deployment-c6545ffc5-492n9
+  275  kubectl delete pod helloworld-deployment-c6545ffc5-492n9
+  276  kubectl get pods -o wide 
+  277  kubectl describe service helloworld-service
+  278  history 
+  279  kubectl get deployments 
+  280  curl 40.76.6.114
+  281  curl 40.76.6.114
+  282  kubectl edit deployment helloworld-deployment
+  283  kubectl get pods 
+  284  kubectl edit deployment helloworld-deployment
+  285  ls
+  286  curl 40.76.6.114
+  287  kubectl edit deployment helloworld-deployment
+  288  kubectl get nodes
+  289  kubectl get nodes -o label
+  290  kubectl get nodes -o labels
+  291  kubectl get nodes --show-labels
+  292  ls
+  293  cd azure-devops-k8s-20190706/
+  294  ls
+  295  cd K8s/deployment/
+  296  ls
+  297  kubectl get deployments 
+  298  kubectl delete helloworld-deployment
+  299  kubectl delete deployment helloworld-deployment
+  300  kubectl get svc 
+  301  kubectl delete svc helloworld-service
+  302  kubectl get svc 
+  303  ls
+  304  cat helloworld-nodeselector.yml 
+  305  kubectl create -f helloworld-nodeselector.yml 
+  306  kubectl get pods 
+  307  cat helloworld-nodeselector.yml 
+  308  kubectl get nodes 
+  309  kubectl lable nodes aks-agentpool-28081948-0 hardware=virtual
+  310  kubectl label nodes aks-agentpool-28081948-0 hardware=virtual
+  311  kubectl label nodes aks-agentpool-28081948-1 hardware=virtual
+  312  kubectl label nodes aks-agentpool-28081948-2 hardware=virtual
+  313  kubectl get nodes --show-labels
+  314  kubectl get nodes --show-labels | grep -i virtual
+  315  kubectl get pods 
+  316  cat helloworld-nodeselector.yml 
+  317  kubectl label nodes aks-agentpool-28081948-2 env=uat
+  318  kubectl label nodes aks-agentpool-28081948-1 env=prod
+  319  kubectl label nodes aks-agentpool-28081948-0 env=prod
+  320  kubectl get pods 
+  321  kubectl get pods -o wide 
+  322  kubectl get nodes --show-labels | grep -i virtual
+  323  kubectl get deployment
+  324  kubectl edit deployment helloworld-deployment-2
+  325  kubectl get pods -o wide 
+  326  history 
+  327  ls
+  328  cd ..
+  329  ls
+  330  cd ..
+  331  ls
+  332  cd K8s/
+  333  ls
+  334  history > K8s_History.txt

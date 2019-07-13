@@ -34,8 +34,8 @@
    34  az vm open-port --port 80 --resource-group myRG --name myVM
    35  az vm delete -g myRG -n myVM 
    36  az vm create -g myRG -n myVM1 --image UbuntuLTS --admin-username azureuser --admin-password 
-   37  az vm create -g myRG -n myVM1 --image UbuntuLTS --admin-username azureuser --admin-password redhat@123
-   38  az vm create -g myRG -n myVM1 --image UbuntuLTS --admin-username azureuser --admin-password Welcome@98765432!
+   37  az vm create -g myRG -n myVM1 --image UbuntuLTS --admin-username azureuser --admin-password password
+   38  az vm create -g myRG -n myVM1 --image UbuntuLTS --admin-username azureuser --admin-password password
    39  ssh azureuser@137.135.79.39
    40  az group delete --name myRG
    41  git clone https://github.com/amitvashist7/jenkins2-course-spring-petclinic.git
@@ -114,9 +114,9 @@
   114  az vm create -n myubuntucliVM -g mydemocliRG --image UbuntuLTS --admin-user amitvashist7 --generate-ssh-keys
   115  ssh amitvashist7@40.117.121.47
   116  az vm create -n myubuntucliVM -g mydemocliRG --image UbuntuLTS --admin-user amitvashist7 --admin-password
-  117  az vm create -n myubuntucliVM -g mydemocliRG --image UbuntuLTS --admin-user amitvashist7 --admin-password Welcome@98765432!
-  118  az vm create -n myubuntucliVM --02 -g mydemocliRG --image UbuntuLTS --admin-user amitvashist7 --admin-password Welcome@98765432!
-  119  az vm create -n myubuntucliVM-02 -g mydemocliRG --image UbuntuLTS --admin-user amitvashist7 --admin-password Welcome@98765432!
+  117  az vm create -n myubuntucliVM -g mydemocliRG --image UbuntuLTS --admin-user amitvashist7 --admin-password Test@98765432!
+  118  az vm create -n myubuntucliVM --02 -g mydemocliRG --image UbuntuLTS --admin-user amitvashist7 --admin-password Test@98765432!
+  119  az vm create -n myubuntucliVM-02 -g mydemocliRG --image UbuntuLTS --admin-user amitvashist7 --admin-password Test@98765432!
   120  ssh amitvashist7@13.90.61.194
   121  ls
   122  az vm show -g mydemocliRG 

@@ -19,3 +19,10 @@ spec:
         backend:
           serviceName: helloworld-v2
           servicePort: 80
+  - host: helloworld-v3.example.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: helloworld-v3
+          servicePort: 80
